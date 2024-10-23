@@ -15,7 +15,7 @@ function Header() {
 
         <div className="left">
           <ul>
-            <li>Personal</li>
+            <li className="li-active">Personal</li>
             <li>Platform</li>
           </ul>
         </div>
@@ -26,7 +26,7 @@ function Header() {
             <li>Pricing</li>
             <li className="li-special"> <img className="us-flag" src={usFlag} alt="" /> EN</li>
             <li>Login</li>
-            <li>Register</li>
+            <li className="li-active">Register</li>
           </ul>
         </div>
 

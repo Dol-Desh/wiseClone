@@ -11,4 +11,10 @@
   background-color: #fff;
 }
 
-
+:root {
+  --white: #ffffff;
+  --pakistan-green: #163300;
+  --night: #0E0F0C;
+  --outer-space: #454745;
+  --light-green: #9FE870;
+}
