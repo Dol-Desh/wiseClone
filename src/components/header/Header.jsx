@@ -24,6 +24,7 @@ function Header() {
           <ul>
             <li className="li-special">Features <img className="chevron-down" src={chevronDown} alt="" /></li>
             <li>Pricing</li>
+            <li>Help</li>
             <li className="li-special"> <img className="us-flag" src={usFlag} alt="" /> EN</li>
             <li>Login</li>
             <li className="li-active">Register</li>

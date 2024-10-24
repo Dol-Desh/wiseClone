@@ -5,16 +5,64 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
-.container{
+.container {
   width: 100vw;
   min-height: 100vh;
   background-color: #fff;
 }
 
 :root {
-  --white: #ffffff;
-  --pakistan-green: #163300;
-  --night: #0E0F0C;
-  --outer-space: #454745;
-  --light-green: #9FE870;
+  --color-bright-yellow: #ffeb69;
+  --color-bright-orange: #ffc091;
+  --color-dark-purple: #260a2f;
+  --color-dark-gold: #3a341c;
+  --color-bright-blue: #a0e1e1;
+  --color-dark-charcoal: #21231d;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-bright-green: #9fe870;
+  --color-forest-green: #163300;
+  --color-bright-pink: #ffd7ef;
+  --color-dark-maroon: #320707;
+  --color-content-primary: #0e0f0c;
+  --color-content-secondary: #454745;
+  --color-content-tertiary: #6a6c6a;
+  --color-content-link: #163300;
+  --color-content-link-hover: #0d1f00;
+  --color-content-link-active: #0e0f0c;
+  --color-interactive-primary: #163300;
+  --color-interactive-primary-hover: #0d1f00;
+  --color-interactive-primary-active: #0e0f0c;
+  --color-interactive-secondary: #868685;
+  --color-interactive-secondary-hover: #6c6c6b;
+  --color-interactive-secondary-active: #525251;
+  --color-interactive-accent: #9fe870;
+  --color-interactive-accent-hover: #80E12C;
+  --color-interactive-accent-active: #65cf21;
+  --color-interactive-control: #163300;
+  --color-interactive-control-hover: #0d1f00;
+  --color-interactive-control-active: #0e0f0c;
+  --color-interactive-contrast: #9fe870;
+  --color-interactive-contrast-hover: #cdffad;
+  --color-interactive-contrast-active: #ecffe0;
+  --color-border-neutral: rgba(14, 15, 12, .122);
+  --color-border-overlay: rgba(14, 15, 12, .122);
+  --color-background-screen: #fff;
+  --color-background-screen-hover: rgba(22, 51, 0, .078);
+  --color-background-screen-active: rgba(22, 51, 0, .129);
+  --color-background-elevated: #fff;
+  --color-background-neutral: rgba(22, 51, 0, .078);
+  --color-background-neutral-hover: rgba(22, 51, 0, .129);
+  --color-background-neutral-active: rgba(22, 51, 0, .18);
+  --color-background-overlay: rgba(22, 51, 0, .078);
+  --color-sentiment-negative: #a8200d;
+  --color-sentiment-negative-hover: #8e1b0b;
+  --color-sentiment-negative-active: #761709;
+  --color-sentiment-positive: #2f5711;
+  --color-sentiment-warning: #edc843;
+  --color-contrast: #fff;
+  --color-light: #fff;
+  --color-dark: #121511;
+  --color-contrast-overlay: #fff;
+  --color-contrast-theme: #121511;
 }

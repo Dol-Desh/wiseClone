@@ -1,7 +1,6 @@
 @import '../../index.css';
 
-
-.header{
+.header {
     width: 100%;
     display: flex;
     align-items: center;
@@ -10,14 +9,13 @@
     margin: 0;
 }
 
-.logo{
+.logo {
     height: 20px;
     cursor: pointer;
     margin-right: 16px;
-
 }
 
-.header-combo{
+.header-combo {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -26,49 +24,62 @@
     box-sizing: border-box;
 }
 
-.left, .right {
+.left,
+.right {
     align-items: center;
     flex-direction: row;
 }
 
-.left ul, .right ul{
+.left ul,
+.right ul {
     list-style: none;
     display: flex;
     flex-direction: row;
     cursor: pointer;
 }
 
-.left ul li, .right ul li{
-    font-size: 15px;
+.left ul li,
+.right ul li {
+    font-size: 16px;
     line-height: 24px;
-    padding: 6px 16px;
+    padding: 4px 12px;
     font-weight: 600;
     cursor: pointer;
     color: var(--pakistan-green);
 }
 
-.li-special{
+.left ul li:hover,
+.right ul li:hover {
+    border-radius: 999px;
+    /* background-color: var(--color-interactive-accent-hover); */
+}
+
+.li-special {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.us-flag, .chevron-down{
+.us-flag,
+.chevron-down {
     width: 24px;
     height: 24px;
     margin-right: 4px;
 }
 
-.chevron-down{
+.chevron-down {
     width: 16px;
     height: 16px;
     margin-left: 4px;
 }
 
-.li-active{
-    background-color: var(--light-green);
+.li-active {
+    background-color: var(--color-interactive-accent);
     flex-direction: row;
     align-items: center;
     border-radius: 999px;
 }
 
+.li-active:hover {
+    background-color: var(--color-interactive-accent-hover);
+}
